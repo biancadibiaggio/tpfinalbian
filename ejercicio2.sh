@@ -23,6 +23,7 @@ done
 #archivo que se le paso como argumento y en la segunda la palabra
 #ahora necesitamos ordenarlo de mayor a menor
 
- sort -g temp.txt >> orden.txt
- tail -10 orden.txt
-rm temp.txt
+ sort -g temp.txt > orden.txt
+ cat orden.txt | uniq > ordenlisto.txt
+ tail -10 ordenlisto.txt
+ rm temp.txt
