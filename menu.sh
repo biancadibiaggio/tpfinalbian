@@ -5,11 +5,12 @@ source 2statsUsageWords.sh
 source 3findNames.sh
 source 4statsSentences.sh
 source 5blankLinesCounter.sh
+
 PATH_ARCHIVO=palabra.txt
 
 PS3='=> '
 echo "Elija una opcion"
-select opcion in "SALIR" "Estadisticas_de_palabras" "Estadisticas_de_uso_de_pa>
+select opcion in "SALIR" "Estadisticas_de_palabras" "Estadisticas_de_uso_de_palabras" "Encontrar_nombres" "Estadisticas_de_oraciones" "Contador_de_lineas en blanco"
 do
         [ -z $opcion ] && echo "Elija una opcion" && continue
         [ $REPLY == 1 ] && echo "Saliendo..." && break
