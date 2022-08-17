@@ -10,7 +10,11 @@
 </h1>
 
 ---
-<h3 align="center">ENTORNO DE PROGRAMACIÓN</h3>
+<h3 align="center">ENTORNO DE PROGRAMACIÓN
+
+Bianca Di Biaggio
+
+</h3>
 
 ---
 
