@@ -1,12 +1,9 @@
-FROM ubuntu:latest
-MAINTAINER Bianca Di Biaggio
+FROM ubuntu:latest ##indica la imagen base que va a utilizar para seguir futuras instrucciones
+MAINTAINER Bianca Di Biaggio #nos permite indicar el nombre del autor
 
-ADD 1statsWords.sh .
-ADD 2statsUsageWords.sh .
-ADD 3findNames.sh .
-ADD 4statsSentences.sh .
-ADD 5blankLinesCounter.sh .
-ADD menu.sh .
-ADD texto.txt .
+COPY . /TP ##Copy idica que queremos agarrar todos los archvios del directorio actual (.) y trasladarlos al directorio ./app de la imagen
+WORKDIR /TP ##indica el directorio sobre el que se van a aplicar las intrucciones siguientes
+RUN chmod +x *.sh ##Se usa para correr un comando
+ENTRYPOINT ./menu.sh ##Se usa para establecer los ejecutables que se ejecutaran siempre que se inicie el contenedor
 
-ENTRYPOINT ./menu.sh
+
