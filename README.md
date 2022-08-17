@@ -7,8 +7,7 @@
 
 <h4 align="center"> Bash Scripting - Git - Docker</h4>
 
-<h4 align="center"> Autora: [Bianca Di Biaggio](https://github.com/biancadibiaggio/tpfinalbian/) </h4>
----
+Autora: [Bianca Di Biaggio](https://github.com/biancadibiaggio/tpfinalbian/) 
 
 ## ¿En qué consiste el trabajo?
 
