@@ -1,30 +1,10 @@
-<h1 align="center">
-<br>
-  <a href="https://web.fceia.unr.edu.ar/es/">
-    <img src="https://jornadasaie.org.ar/wp-content/uploads/2020/09/FCEIA-logo.png" alt="Front-End Checklist" width="530">
-  </a>
-  <br>
-    <br>
-    <a href="https://web.fceia.unr.edu.ar/es/carreras/carreras-de-pregrado/2165-tecnicatura-universitaria-en-inteligencia-artificial.html">Tecnicatura Universitaria en Inteligencia Artificial</a>
-  <br>
-</h1>
+<h3 align="center"> TRABAJO PRÁCTICO FINAL DE ENTORNOS DE PROGRAMACIÓN</h3>
 
 ---
-<h3 align="center">ENTORNO DE PROGRAMACIÓN
-
-Bianca Di Biaggio
-
-</h3>
-
+<h4 align="center"> Bash Scripting - Git - Docker</h4>
 ---
 
-<h4 align="center">Implementación del uso de GIT, Docker y Bash Scripting</h4>
-
-<p align="center">
-  <a href="#objetivo">Objetivo</a> • <a href="#git">Git</a> • <a href="#requisitos">Requisitos</a> • <a href="#como-usarlo">¿Como usarlo?</a> • <a href="#descripción-de-cada-una-de-las-opciones">Descripción</a> • <a href="#profesores">Profesores</a> • <a href="#autor">Autor</a> 
-</p>
-
----
+## Autora: Bianca E. Di Biaggio
 
 ## Objetivo
 
@@ -134,10 +114,4 @@ docker run -it tp:1.0
 **[Bianca Di Biaggio](https://github.com/tpfinalbian)**
 
 [menu_img]: https://github.com/yendor2/tp/blob/main/capturas/Menu.PNG
-[img_img]: https://github.com/yendor2/tp/blob/main/capturas/images.PNG
-[build_img]: https://github.com/yendor2/tp/blob/main/capturas/build.PNG
-[opcion2_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion2.PNG
-[opcion3_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion3.PNG
-[opcion4_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion4.PNG
-[opcion5_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion5.PNG
-[opcion6_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion6.PNG
+
