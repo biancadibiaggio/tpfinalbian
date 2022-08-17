@@ -1,13 +1,14 @@
 <h3 align="center"> TRABAJO PRÁCTICO FINAL DE ENTORNOS DE PROGRAMACIÓN</h3>
-<h3 align="center"> TECNICATURA UNIVERSITARIA EN INTELIGENCIA ARTIFICIAL - FCEIA - UNR</h3>
-
 
 ---
+<h4 align="center"> Tecnicatura Universitaria en Inteligencia Artificial</h4>
+<h4 align="center"> FCEIA - UNR </h4>
+
+
 <h4 align="center"> Bash Scripting - Git - Docker</h4>
+
+**Autora: [Bianca Di Biaggio](https://github.com/biancadibiaggio/tpfinalbian/)**
 ---
-
-** Autora: [Bianca Di Biaggio](https://github.com/tpfinalbian)**
-
 
 ## ¿En qué consiste el trabajo?
 
@@ -32,7 +33,7 @@ Comandos Docker para ejecutar el contenedor:
 
 ¬ El comando build crea la imagen tp con el tag 1.0 .
 
-- ***docker build --tag tplara:1.0 .***
+- ***docker build --tag tpfinalbian:1.0 .***
 
 ¬ Luego se ejecuta:
 
@@ -41,7 +42,7 @@ Comandos Docker para ejecutar el contenedor:
 Para corroborar que la imagen se creó correctamente.
 Para ejecutar el contenedor se utiliza el comando run:
 
-- ***docker run -it tplara:1.0***
+- ***docker run -it tpfinalbian:1.0***
 
 Si todo funciona perfectamente, debería ejecutarse el menu.sh
 
