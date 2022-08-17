@@ -26,6 +26,14 @@ En efecto, al ejecutar el contenedor su muestra un menu con distintas opciones p
 
 En este repositorio se encuentran almacenados los scripts de análisis de texto así como también el script del menu. También se incluye el README.md y el Dockerfile.
 
+Para guardar algún archivo en el repositorio creado en GIT, se ejecutan los siguientes comandos:
+
+- ***git add <archivo>***
+- ***git commit***
+- ***git push***
+
+AL ejecutar el último comando, la terminal solicita el username de GIT y el token del repositorio.
+
 ## DOCKER
 
 Comandos Docker para ejecutar el contenedor:
