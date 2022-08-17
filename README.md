@@ -128,3 +128,12 @@ docker run -it tp:1.0
 ## Autor
 
 **[Bianca Di Biaggio](https://github.com/tpfinalbian)**
+
+[menu_img]: https://github.com/yendor2/tp/blob/main/capturas/Menu.PNG
+[img_img]: https://github.com/yendor2/tp/blob/main/capturas/images.PNG
+[build_img]: https://github.com/yendor2/tp/blob/main/capturas/build.PNG
+[opcion2_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion2.PNG
+[opcion3_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion3.PNG
+[opcion4_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion4.PNG
+[opcion5_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion5.PNG
+[opcion6_img]: https://github.com/yendor2/tp/blob/main/capturas/opcion6.PNG
