@@ -30,7 +30,7 @@ En este repositorio se encuentran almacenados los scripts de análisis de texto 
 
 Comandos Docker para ejecutar el contenedor:
 
-¬ El comando build crea la imagen tp con el tag 1.0 .
+¬ El comando build crea la imagen tp con el tag 1.0 .:
 
 - ***docker build --tag tpfinalbian:1.0 .***
 
@@ -38,12 +38,12 @@ Comandos Docker para ejecutar el contenedor:
 
 - ***docker images***
 
-Para corroborar que la imagen se creó correctamente.
-Para ejecutar el contenedor se utiliza el comando run:
+¬ Para corroborar que la imagen se creó correctamente.
+¬ Para ejecutar el contenedor se utiliza el comando run:
 
 - ***docker run -it tpfinalbian:1.0***
 
-Si todo funciona perfectamente, debería ejecutarse el menu.sh
+¬ Si todo funciona perfectamente, debería ejecutarse el menu.sh.
 
 ## SCRIPTS
 
