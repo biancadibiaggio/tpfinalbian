@@ -28,11 +28,11 @@ En este repositorio se encuentran almacenados los scripts de análisis de texto 
 
 Para guardar algún archivo en el repositorio creado en GIT, se ejecutan los siguientes comandos:
 
-- ***git add <archivo>***
+- ***git add Archivo***
 - ***git commit***
 - ***git push***
 
-AL ejecutar el último comando, la terminal solicita el username de GIT y el token del repositorio.
+Al ejecutar el último comando, la terminal solicita el username de GIT y el token del repositorio.
 
 ## DOCKER
 
