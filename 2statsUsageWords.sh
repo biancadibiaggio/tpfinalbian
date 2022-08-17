@@ -1,5 +1,6 @@
 #!/bin/bash
 
+function 2statsUsageWords {
 [ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
 
 for palabra in $(cat $1)
@@ -32,3 +33,4 @@ done
  head ordenalreves.txt
  rm temp.txt
 
+}

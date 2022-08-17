@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+function 3findNames {
 [ ! -f $1 ] && echo "No es un archivo regular" && exit 1
 
 
@@ -11,3 +11,4 @@ do
 	[[ $PalabraDespejada =~ ^[A-Z] ]] && echo $PalabraDespejada
 
 done
+}

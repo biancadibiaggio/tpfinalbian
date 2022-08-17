@@ -1,3 +1,6 @@
+#!/bin/bash
+
+function 4statsSentences {
 [ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
 
 cant_letras=0
@@ -25,3 +28,4 @@ do
    echo La oración más larga tiene $max_longitud letras
    echo El promedio de longitud de oraciones es $((suma_longitud/cant_oraciones))
 
+}

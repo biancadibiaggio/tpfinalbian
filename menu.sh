@@ -6,7 +6,7 @@ source 3findNames.sh
 source 4statsSentences.sh
 source 5blankLinesCounter.sh
 
-PATH_ARCHIVO=palabra.txt
+PATH_ARCHIVO=texto.txt
 
 PS3='=> '
 echo "Elija una opcion"
