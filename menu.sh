@@ -6,24 +6,23 @@ source 3findNames.sh
 source 4statsSentences.sh
 source 5blankLinesCounter.sh
 
-PATH_ARCHIVO=texto.txt
+TEXTO=texto.txt
 
-PS3='=> '
-echo "Elija una opcion"
-select opcion in "Estadísticas_de_palabras" "Estadísticas_de_uso_de_palabras" "Encontrar_nombres_propios" "Estadísticas_de_oraciones" "Contador_de_lineas_en_blanco" "Salir"
+PS3='>> '
+echo "Elija una opción"
+select opcion in "Palabras" "Uso_de_palabras" "Nombres" "Oraciones" "Lineas_en_blanco" "SALIR"
 do
-        [ -z $opcion ] && echo "Elija una opcion" && continue
-        [ $REPLY == 6 ] && echo "Saliendo, vuelva prontos" && break
-        echo "La opción de filtrado eligida es: " $opcion
-        echo "Resultados:"
-
-        case $REPLY in 
-          1) 1statsWords $PATH_ARCHIVO;;
-          2) 2statsUsageWords $PATH_ARCHIVO;;
-          3) 3findNames $PATH_ARCHIVO;;
-          4) 4statsSentences $PATH_ARCHIVO;;
-          5) 5blankLinesCounter $PATH_ARCHIVO;;
-        esac
+	[ -z $opcion ] && echo "Elija una opción válida" && continue
+	[ $REPLY == 6 ] && echo "Hasta luego, vuelva prontos" && break
+	echo "Usted esta viendo estadísticas sobre " $opcion
+	
+	case $REPLY in 
+	  1) 1statsWords $TEXTO;;
+	  2) 2statsUsageWords $TEXTO;;
+	  3) 3findNames $TEXTO;;
+	  4) 4statsSentences $TEXTO;;
+	  5) 5blankLinesCounter $TEXTO;;
+	esac
 done
 
 exit 0
