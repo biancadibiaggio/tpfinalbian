@@ -1,6 +1,9 @@
 #!/bin/bash
 
 function 1statsWords {
+
+[ ! -f $1 ] && echo "Archivo inexistente, intente nuevamente" && exit 1
+
 palabra_mas_corta=189919 #esta es la cantidad de letras que contiene la palabr>
 palabra_mas_larga=0
 suma_acumulada=0
@@ -10,7 +13,7 @@ promedio=0
 
 for word in $(cat $1);
     do
-          long_palabra_temp=${#word}
+          long_palabra_temp=${#word} #ESta variable guarda la long de la palabra
           if [[ $long_palabra_temp -lt  $palabra_mas_corta ]]
           then
               palabra_mas_corta=$long_palabra_temp

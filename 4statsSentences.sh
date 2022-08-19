@@ -29,3 +29,4 @@ do
    echo El promedio de longitud de oraciones es $((suma_longitud/cant_oraciones))
 
 }
+
