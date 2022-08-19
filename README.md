@@ -20,7 +20,7 @@ En primera instancia, se resolvieron los 5 ejercicios dados con el lenguaje de p
 
 Luego, se utilizó la plataforma Github para alojar el repositorio remoto, y por último, se generó un Dockerfile. En este se indicaron ciertas instrucciones para que se genere la imagen que al ejecutarse genera un contenedor donde funcionan los scripts.
 
-En efecto, al ejecutar el contenedor su muestra un menu con distintas opciones para poder analizar el texto.
+En efecto, al ejecutar el contenedor se muestra un menú con distintas opciones para poder analizar el texto.
 
 ## GIT
 
@@ -52,6 +52,23 @@ Comandos Docker para ejecutar el contenedor:
 - ***docker run -it tpfinalbian:1.0***
 
 ¬ Si todo funciona perfectamente, debería ejecutarse el menu.sh.
+
+Por otro lado, para levantar el contenedor en otro equipo, lo ideal es crear una carpeta donde clonar el repsitorio git. Para esto hacemos:
+
+- *** mkdir carpeta_prueba ***
+
+- *** cd carpeta_prueba ***
+
+Ahora sí, clonamos el repositorio:
+
+- *** git clone https://github.com/biancadibiaggio/tpfinalbian ***
+
+Posteriormente se accede a la carpeta clonada:
+
+- *** cd tpfinalbian ***
+
+Y una vez dentro, ahí sí podemos crear la imagen y correr el contenedor con los comandos antes mencionados.
+
 
 ## SCRIPTS
 
