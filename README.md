@@ -55,17 +55,17 @@ Comandos Docker para ejecutar el contenedor:
 
 Por otro lado, para levantar el contenedor en otro equipo, lo ideal es crear una carpeta donde clonar el repsitorio git. Para esto hacemos:
 
-- *** mkdir carpeta_prueba ***
+- ***mkdir carpeta_prueba***
 
-- *** cd carpeta_prueba ***
+- ***cd carpeta_prueba***
 
 Ahora sí, clonamos el repositorio:
 
-- *** git clone https://github.com/biancadibiaggio/tpfinalbian ***
+- ***git clone https://github.com/biancadibiaggio/tpfinalbian***
 
 Posteriormente se accede a la carpeta clonada:
 
-- *** cd tpfinalbian ***
+- ***cd tpfinalbian***
 
 Y una vez dentro, ahí sí podemos crear la imagen y correr el contenedor con los comandos antes mencionados.
 
